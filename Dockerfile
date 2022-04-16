@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 ADD https://s3.amazonaws.com/parsec-build/package/parsec-linux.deb parsec-linux.deb
 RUN apt-get update && \
